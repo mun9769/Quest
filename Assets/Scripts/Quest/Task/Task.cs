@@ -62,7 +62,7 @@ public class Task : ScriptableObject
         }
     }
     public Category Category => category;
-    private string CodeName => codeName;
+    public string CodeName => codeName;
     public string Description => description;
     public int NeedSuccessToComplete => needSuccessToComplete;
     public TaskState State
