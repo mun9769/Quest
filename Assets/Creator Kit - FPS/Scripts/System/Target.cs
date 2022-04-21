@@ -11,6 +11,8 @@ public class Target : MonoBehaviour
 
     public ParticleSystem DestroyedEffect;
 
+    public UnityEngine.Events.UnityEvent onDead;
+
     [Header("Audio")]
     public RandomPlayer HitPlayer;
     public AudioSource IdleSource;
@@ -69,5 +71,7 @@ public class Target : MonoBehaviour
         gameObject.SetActive(false);
        
         GameSystem.Instance.TargetDestroyed(pointValue);
+
+        onDead.Invoke();
     }
 }

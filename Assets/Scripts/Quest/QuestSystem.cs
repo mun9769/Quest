@@ -76,7 +76,8 @@ public class QuestSystem : MonoBehaviour
     private void OnApplicationQuit()
     {
         isApplicationQuitting = true;
-        Save();
+        // Save();
+        // 앱이 꺼지면 save해줄수도 있지만, stage를 깰 때 save해줄 수도 있다.
     }
 
     public Quest Register(Quest quest)
