@@ -31,6 +31,7 @@ public class QuestReporter : MonoBehaviour
 
     private void ReportIfPassCondition(Component other)
     {
+        Debug.Log("hawing");
         if (colliderTags.Any(x => other.CompareTag(x)))
             Report();
     }

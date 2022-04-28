@@ -20,6 +20,12 @@ MonoBehaviour:
   taskGroups:
   - tasks:
     - {fileID: 11400000, guid: 3cfce50eb0afe314baf00fa36089ef29, type: 2}
+  - tasks:
+    - {fileID: 11400000, guid: 1dfe382c573e65f4ea73e58e1e83efd1, type: 2}
+  - tasks:
+    - {fileID: 11400000, guid: d524c8f54ea398f4bbba55583935e27f, type: 2}
+  - tasks:
+    - {fileID: 11400000, guid: 0461bdb9ffe70fc4cabe6b37fe106d8f, type: 2}
   rewards: []
   useAutoComplete: 0
   isCancelable: 0

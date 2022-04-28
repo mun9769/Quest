@@ -76,8 +76,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bfea52c91ab5bb64a90f3628b33c73df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  questTitleText: {fileID: 6774673762540671645, guid: 4508a58558c732646bca9eec8d65848f,
-    type: 3}
+  questTitleText: {fileID: 3842680392208543818}
   taskDescriptorPrefab: {fileID: -9212395800895738296, guid: 4508a58558c732646bca9eec8d65848f,
     type: 3}
 --- !u!1 &7910898280022624133
